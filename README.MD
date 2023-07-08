@@ -1,28 +1,26 @@
-# CodeIgniter 4 - Build Your First Application
+# CodeIgniter 4 with Smarty template engine
 
 ## About the project?
 
-Base on Docs of CI4:
+Base on my improved version of `ci4 - Build Your First Application`:
 
-[Build Your First Application](https://codeigniter.com/user_guide/tutorial/).
-
-With new feature added for better understanding the framework
+[Original improved](https://github.com/ampmonteiro/ci4-build-your-first-App).
 
 What was added:
 
-- taking advantages of layout system
-- Edit news item
-- remove news item
-- used of form_open helper
-- better routes organization
-- better visual
+- take advantage of template engine like **Smarty php**
 
 ## What was used
 
 - php: 8.1
 - mysql: 8
 - Docker
-- CodeIgniter: 4.3.1
+- CodeIgniter: 4.3.6
+- Smarty php: 4.3 -> [more about it](https://www.smarty.net/documentation)
+
+## side by side template code (Smarty vs Vanilla Ci4 template engine)
+
+![Ci4 Template engine vs Latte template engine](smarty_vs_ci4_template.png 'Ci4 Template engine vs Latte template engine')
 
 ## image of the App
 
