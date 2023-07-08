@@ -13,10 +13,15 @@ class News extends BaseController
 
         $data = [
             'news'  => $model->get(),
-            'title' => 'News archive',
+            'title' => 'News archive'
         ];
 
-        return view('news/index', $data);
+        // return view('news/index', $data);
+
+        return $this->smartyDisplay(
+            view: 'news/index',
+            params: $data
+        );
     }
 
     public function show($slug = null)
@@ -33,13 +38,22 @@ class News extends BaseController
 
         helper('form');
 
-        return view('news/show', $data);
+        // return view('news/show', $data);
+
+        return $this->smartyDisplay(
+            view: 'news/show',
+            params: $data
+        );
     }
 
     public function create()
     {
         helper('form');
-        return view('news/create', ['title' => 'Create a news item']);
+        // return view('news/create', ['title' => 'Create a news item']);
+        return $this->smartyDisplay(
+            view: 'news/create',
+            params: ['title' => 'Create a news item']
+        );
     }
 
     public function store()
@@ -89,7 +103,12 @@ class News extends BaseController
 
         helper('form');
 
-        return view('news/edit', $data);
+        // return view('news/edit', $data);
+
+        return $this->smartyDisplay(
+            view: 'news/edit',
+            params: $data
+        );
     }
 
     public function update()
