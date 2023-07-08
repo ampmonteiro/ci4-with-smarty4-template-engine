@@ -1,4 +1,4 @@
-# CodeIgniter 4 with Smarty template engine
+# CodeIgniter 4 with Smarty 4 template engine
 
 ## About the project?
 
