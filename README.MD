@@ -1,4 +1,4 @@
-# CodeIgniter 4 with Smarty template engine
+# CodeIgniter 4 with Smarty 4 template engine
 
 ## About the project?
 
@@ -35,6 +35,8 @@ What was added:
 - [PHP Namespace Resolver](https://marketplace.visualstudio.com/items?itemName=MehediDracula.php-namespace-resolver) (By Mehedi Hassan)
 
 - [PHP Awesome Snippets](https://marketplace.visualstudio.com/items?itemName=hakcorp.php-awesome-snippets) (By HakCorp)
+
+- [Smarty Template Support](https://marketplace.visualstudio.com/items?itemName=aswinkumar863.smarty-template-support)(Aswin Kumar)
 
 - To better developement it is taked advantages of this two wonderfull vscode extensions:
   - [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker) (By Microsoft): to manage docker containers in vs code
