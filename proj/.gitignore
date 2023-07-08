@@ -64,6 +64,12 @@ writable/debugbar/*
 
 php_errors.log
 
+#-------for smarty
+writable/smarty/templates_c/*
+writable/smarty/cache/*
+
+
+
 #-------------------------
 # User Guide Temp Files
 #-------------------------
