@@ -12,17 +12,14 @@
         <a href="/news/{$news['slug']}/edit">
             Edit article
         </a>
-        {* Not working the unescape modifier *}
-        {form_open('news/delete',[],['news_id' => {$news['id']}])|unescape}
+        {* nofilter to not escape html *}
+        {form_open('news/delete', [], ['news_id' => {$news['id']}]) nofilter}
         <button>Delete</button>
-        {form_close()|unescape}
+        {form_close() nofilter}
 
-        {* original *}
-        {* <?= form_open(
-                'news/delete',
-                hidden: ['news_id' => esc($news['id'])] # take advantage of named args since php 8
-            ) ?>
+        {* Named Argument not supported*}
+        {* {form_open('news/delete', hidden:['news_id' => {$news['id']}]) nofilter}
         <button>Delete</button>
-        <?= form_close() ?> *}
+        {form_close() nofilter} *}
     </section>
 {/block}
