@@ -36,5 +36,11 @@
         <li>
             better routes organization
         </li>
+        <li>
+            Takes advantages of
+            <a href="https://www.smarty.net/documentation" target="_blank" rel="noopener noreferrer">
+                Smarty Template
+            </a>
+        </li>
     </ul>
 {/block}
